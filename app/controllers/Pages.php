@@ -10,6 +10,7 @@ class Pages extends Controller {
 	{
 		$data = [
 			'title' => 'SharePosts',
+			'description' => 'Simple social network built on the DannyMVC PHP Framework'
 		];
 		$this->view('pages/index', $data);
 	}
@@ -18,6 +19,7 @@ class Pages extends Controller {
 	{
 		$data = [
 			'title' => 'About Us',
+			'description' => 'App to share posts with other users'
 		];
 		$this->view('pages/about', $data);
 	}
