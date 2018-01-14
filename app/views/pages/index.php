@@ -2,6 +2,4 @@
 
 	<h1><?php echo $data['title']; ?></h1>
 
-	<p>This is the DannyMVC.</p>
-
 <?php require APPROOT . '/views/inc/footer.php'; ?>
