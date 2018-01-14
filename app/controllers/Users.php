@@ -59,7 +59,7 @@ class Users extends Controller {
 
 				// Register user
 				if ($this->userModel->register($data)) {
-					// redirect
+					flash('register_success', 'Registered successfully');
 					redirect('users/login');
 				} else {
 					die('Something went wrong!');
