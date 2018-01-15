@@ -1,5 +1,6 @@
 <?php require APPROOT . '/views/inc/header.php'; ?>
 
+	<?php flash('post_message'); ?>
 	<a href="<?php echo URLROOT; ?>/posts" class="btn btn-light"><i class="fa fa-backward"></i> Back</a>
 	<br>
 	<h1><?php echo $data['post']->title; ?></h1>
